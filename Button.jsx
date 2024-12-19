@@ -4,7 +4,7 @@ function Button() {
     if (count <= 3) {
       count++;
       e.target.textContent = "Ouch 😒";
-    } else if (count <= 6) {
+    } else if (count <= 5) {
       count++;
       e.target.textContent = "STOP CLIKING ME 😩";
     } else {
